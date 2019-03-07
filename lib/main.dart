@@ -6,7 +6,6 @@ import 'package:shuqi/app/app_scene.dart';
 
 void main() {
   runApp(AppScene());
-
   if (Platform.isAndroid) {
     SystemUiOverlayStyle systemUiOverlayStyle = SystemUiOverlayStyle(statusBarColor: Colors.transparent);
     SystemChrome.setSystemUIOverlayStyle(systemUiOverlayStyle);
